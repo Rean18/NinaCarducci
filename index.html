@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Site de Nina Carducci, photographe profesionnelle</title>
-	<meta name="description" content="Nina Carducci, photographe professionnelle, excelle dans le shooting photo, la photo portrait, la retouche photo, la photo mariage,
+	<title>Site de Nina Carducci, photographe profesionnelle à Bordeaux et en Île-de-France</title>
+	<meta name="description" content="Nina Carducci, photographe professionnelle sur Bordeaux et en Île-de-France, excelle dans le shooting photo, la photo portrait, la retouche photo, la photo mariage,
 	 la photo entreprise, la photo de concert, et les albums photos. Un art captivant pour chaque moment de votre vie.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
@@ -64,7 +64,7 @@
 	</div>
 	<div id="about-me">
 		<h3 class="about-me__title">A propos de moi</h3>
-		<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h6>
+		<h6 class="about-me__introduction">Devenir photographe profesionnelle était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h6>
 		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
@@ -96,34 +96,35 @@
 <div id="services">
 	<h3 class="title">Mes services</h3>
 	<div class="container">
-		<div class="service">
+		<div class="service" itemscope itemtype="http://schema.org/Service">
 			<div class="service__description">
-				<h3>Shooting photo</h3>
-				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
+				<h3 itemprop="serviceType">Shooting photo</h3>
+				<p> <span itemprop="description">Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace sur </span>
+					<span itemprop="areaServed">Bordeaux et en Île-de-France</span> pour réaliser vos photos</p>
 			</div>
-			<div class="service__price">
-				<h4>350€/demi journée</h4>
+			<div class="service__price" itemscope itemtype="https://schema.org/PriceSpecification">
+				<h4><span itemprop="price" content="350">350</span><span itemprop="priceCurrency" content="EUR">€</span>/demi journée</h4>
 				<span>Matériel, déplacement inclus</span>
 			</div>
 
 		</div>
-		<div class="service">
+		<div class="service" itemscope itemtype="http://schema.org/Service">
 			<div class="service__description">
-				<h3>Retouches</h3>
+				<h3 itemprop="serviceType">Retouches photos</h3>
 				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 			</div>
-			<div class="service__price">
-				<h4>50€/photo</h4>
+			<div class="service__price" itemscope itemtype="https://schema.org/PriceSpecification">
+				<h4 ><span itemprop="price" content="50">50</span><span itemprop="priceCurrency" content="EUR">€</span>/photo</h4>
 				<span>2 AR par photo</span>
 			</div>
 		</div>
-		<div class="service">
+		<div class="service" itemscope itemtype="http://schema.org/Service">
 			<div class="service__description">
-				<h3>Album photos</h3>
+				<h3 itemprop="serviceType">Album photos</h3>
 				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
 			</div>
-			<div class="service__price">
-				<h4>400€ album A4</h4>
+			<div class="service__price" itemscope itemtype="https://schema.org/PriceSpecification">
+				<h4><span itemprop="price" content="400">400</span><span itemprop="priceCurrency" content="EUR">€</span> album A4</h4>
 				<span>30 pages recto/verso</span>
 			</div>
 		</div>
@@ -140,6 +141,16 @@
 <div id="contact">
 	<div class="container">
 		<div class="form-container">
+			<div class ="info-contact" itemscope itemtype="https://schema.org/Person">
+				<h3>Vous souhaitez me contacter directement ?</h3>
+				<span itemprop="name">Nina Carducci</span>
+				<div itemscope itemtype="https://schema.org/PostalAddress">
+					<span itemprop="telephone">0556977889</span> <br>
+					<span itemprop="streetAddress"> 68 avenue Alsace-Lorraine</span> <br>
+					<span itemprop="postalCode">33200</span>
+					<span itemprop="addressLocality">Bordeaux</span>
+				</div>
+			</div>
 			<h3>Une question ? Une demande de devis ?</h3>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 			<form action="" method="post">
