@@ -211,6 +211,10 @@ body {
 	right: 0;
 	z-index: -1;
 }
+.info-contact{
+	margin-bottom: 30px;
+	line-height: 30px;
+}
 .form-container {
 	flex : 2;
 
