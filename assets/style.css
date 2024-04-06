@@ -160,6 +160,10 @@ body {
 	background-color: #A8D5D8 ;
 	position: relative;
 }
+
+
+
+
 #services .container::before{
 	content: ' ';
 	background-color: #1C6474;
@@ -175,7 +179,11 @@ body {
 	justify-content: space-between;
 	display: flex;
 	padding : 2em 0;
+}
 
+#services .container img {
+	max-width: 390px;
+	height: 260px;
 }
 
 .service {
