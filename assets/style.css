@@ -66,6 +66,9 @@ body {
 	margin: 0 20px;
 	z-index: 0;
 }
+.picture.right {
+	padding-top: 250px;
+}
 
 .picture img {
 	width: 100%;
@@ -164,8 +167,6 @@ body {
 }
 
 
-
-
 #services .container::before{
 	content: ' ';
 	background-color: #1C6474;
@@ -181,6 +182,9 @@ body {
 	justify-content: space-between;
 	display: flex;
 	padding : 2em 0;
+}
+#services h2{
+	padding: 1em 0;
 }
 
 #services .container img {
@@ -205,9 +209,8 @@ body {
 	background-color: #D8D3A8 ;
 	position: relative;
 	padding-inline: 100px;
-	padding-block: 100px;
+	padding-block: 50px;
 }
-
 #contact .container {
 	display: flex;
 }
